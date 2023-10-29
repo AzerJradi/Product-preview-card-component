@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+}
+.all {
+    background-color: white;
+    display:flex;
+    border-radius: 8px;
+    position: relative;
+    margin: 10% 20% 20% 20%;
+    flex-direction: row;
+}
+img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius:12px ;
+}
+.cnt{
+    display: flex;
+    top: 100px;
+    margin-left: 50%;
+}
+.titlee {
+    margin-left: 20px;
+    font-size: 28px ;
+
+    display: flex;
+    flex-direction: column;    
+}
+.par{
+    color: rgba(74, 74, 74, 0.737);
+    margin-bottom: -10px;
+    font-family: Courier New, monospace;
+}
+.titre{
+    font-family: fantasy;
+    font-size: 36px;
+}
+.description{
+    font-size: 18px;
+    font-family: Comic Sans MS, Comic Sans, cursive
+}
+.price{
+    color: #42b883;
+    font-family:  Georgia, serif,fantasy;
+    font-size: 40px;
+}
+.price1{
+    margin-left: 20px;
+}
+.price2{
+    margin-left: 150px;
+    text-decoration:line-through ;
+    color: rgba(74, 74, 74, 0.737);
+}
+button{
+    font-size: 30px;
+    color: white;
+    background-color: #42b883;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+}
